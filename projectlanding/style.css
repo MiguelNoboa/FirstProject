@@ -1,0 +1,67 @@
+*{
+    
+    box-sizing: border-box;
+   /* outline: 1px solid red;*/
+}
+
+body{
+    background: #f2f2f2;
+    font-family:'Raleway',sans-serif;
+}
+
+.profile {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile_photo {
+    margin-bottom: 1em;
+}
+
+.profile_img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/*.profile_texts {
+    flex-basis: 40%;
+}*/
+
+.profile_paragraph {
+    line-height: 1.5;
+    font-weight: 300;
+    padding: .7em 0;
+}
+
+.profile_projects {
+    display: inline-block;
+    background: rgb(41, 132, 189);
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px 30px ; 
+    border-radius: 20px;
+    
+}
+
+@media screen and (min-width:850px) {
+    .profile {
+        flex-direction: row;
+        align-items: center;
+    }
+    .profile_photo{
+        flex-grow: 1;
+        order: 1;
+    }
+    .profile_img {
+        max-width: none;
+        
+    }
+    
+}

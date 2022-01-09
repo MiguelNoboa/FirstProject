@@ -25,7 +25,7 @@ body{
 }
 
 .card_person {
-    background-image: url("profile.jpeg");
+    background-image: url("/projectcard/profile.jpeg");
     background-size: cover;
     background-position: center;
     width: 110px;
@@ -62,11 +62,11 @@ body{
 }
 
 .card_icon--facebook{
-    background-image: url(/icons/facebook.svg);
+    background-image: url(/projectcard/icons/facebook.svg);
 }
 .card_icon--linkeldn {
-    background-image: url(/icons/linkeldn.svg);
+    background-image: url(/projectcard/icons/linkeldn.svg);
 }
 .card_icon--twitter{
-    background-image: url(/icons/twitter.svg);
+    background-image: url(/projectcard/icons/twitter.svg);
 }
